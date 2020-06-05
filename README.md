@@ -15,3 +15,7 @@ Face detection is done via  CV2 library.
 The template for web app is stored in tempelates folder as index.html
 We can also detect emotions of people in a recorded video by changing only a single line in camera.py. (The line has been commited out in cmera.py itself for video usage)
 
+Execution flow: Facial_Expression_Training.py (to build and store the model in .h5 format) 
+                ->model.py
+                ->camera.py
+                ->main.py
